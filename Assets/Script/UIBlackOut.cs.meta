@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42dfe940cb372694a8b04876446bed74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blackOutSquare: {instanceID: 0}
+  - EmbodimentPercentage: {instanceID: 0}
+  - Timer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -32,12 +32,12 @@ public class UIBlackOut : MonoBehaviour
         }        
     }
 
-    public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, float fadeSpeed = 0.01f )
+    public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, float fadeSpeed = 0.1f )
     {
         Color objectColor = blackOutSquare.GetComponent<Image>().color;
         float fadeAmount;
 
-        yield return new WaitForSeconds(150f);
+        yield return new WaitForSeconds(5f);
 
         if (fadeToBlack)
         {
